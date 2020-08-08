@@ -1,6 +1,6 @@
 {
   "name": "dweb-dht-rpc",
-  "version": "4.9.3",
+  "version": "1.0.0",
   "description": "Make RPC calls over a Kademlia based DHT",
   "main": "index.js",
   "scripts": {
