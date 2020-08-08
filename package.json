@@ -1,5 +1,5 @@
 {
-  "name": "dht-rpc",
+  "name": "dweb-dht-rpc",
   "version": "4.9.3",
   "description": "Make RPC calls over a Kademlia based DHT",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mafintosh/dht-rpc.git"
+    "url": "git+https://github.com/distributedweb/dweb-dht-rpc.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/dht-rpc/issues"
+    "url": "https://github.com/distributedweb/dweb-dht-rpc/issues"
   },
-  "homepage": "https://github.com/mafintosh/dht-rpc#readme",
+  "homepage": "https://github.com/distributedweb/dweb-dht-rpc#readme",
   "devDependencies": {
     "protocol-buffers": "^4.1.1",
     "standard": "^14.3.1",

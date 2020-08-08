@@ -1,12 +1,12 @@
-# dht-rpc
+# dweb-dht-rpc
 
 Make RPC calls over a [Kademlia](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf) based DHT.
 
 ```
-npm install dht-rpc
+npm install dweb-dht-rpc
 ```
 
-[![build status](http://img.shields.io/travis/mafintosh/dht-rpc.svg?style=flat)](http://travis-ci.org/mafintosh/dht-rpc)
+[![build status](http://img.shields.io/travis/mafintosh/dweb-dht-rpc.svg?style=flat)](http://travis-ci.org/mafintosh/dweb-dht-rpc)
 
 ## Key Features
 
@@ -21,7 +21,7 @@ Here is an example implementing a simple key value store
 First spin up a bootstrap node. You can make multiple if you want for redundancy.
 
 ``` js
-const dht = require('dht-rpc')
+const dht = require('dweb-dht-rpc')
 
 // Set ephemeral: true so other peers do not add us to the peer list, simply bootstrap
 const bootstrap = dht({ ephemeral: true })
@@ -32,7 +32,7 @@ bootstrap.listen(10001)
 Now lets make some dht nodes that can store values in our key value store.
 
 ``` js
-const dht = require('dht-rpc')
+const dht = require('dweb-dht-rpc')
 const crypto = require('crypto')
 
 // Let's create 100 dht nodes for our example.

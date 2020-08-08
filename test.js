@@ -271,7 +271,7 @@ tape('addNodes', function (t) {
   bootstrap(function (port, node) {
     const a = dht({ bootstrap: port })
     const b = dht({ bootstrap: [] })
-    b.listen() // https://github.com/hyperswarm/dht/issues/22
+    b.listen() // https://github.com/dwswarm/dht/issues/22
 
     a.command('hello', {
       query (data, callback) {
